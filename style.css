@@ -1,0 +1,116 @@
+body {
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    font-family: 'Bebas Neue', cursive;
+    background: black;
+}
+
+h1 {
+    text-align: center;
+    font-size: 48px;
+    color: white;
+    padding-top: 20px;
+}
+
+form {
+    display: block;
+    margin: 0 auto;
+    flex-direction: column;
+    /* outline: 1px solid black; */
+    width: 320px;
+    height: 200px;
+}
+
+input {
+    margin: 0 auto;
+    display: block;
+    margin-top: 30px;
+    width: 100%;
+    height: 50px;
+    font-size: 24px;
+    border-radius: 5px;
+    font-family: 'Bebas Neue', cursive;
+    color: #e00029;
+}
+
+input::placeholder {
+    color: #e00029;
+    padding-left: 10px;
+}
+
+input:focus {
+    outline: none !important;
+    border: 2px solid#e00029;
+}
+
+.form-wrapper {
+    display: block;
+    margin: 0 auto;
+    margin-top: 200px;
+    width: 500px;
+    height: 600px;
+    background: #47494f;
+    border-radius: 5px;
+}
+
+button {
+    display: block;
+    margin: 0 auto;
+    margin-top: 20px;
+    width: 200px;
+    height: 50px;
+    font-size: 24px;
+    background-color: black;
+    border-style: none;
+    border-radius: 5px;
+    color: white;
+    font-family: 'Bebas Neue', cursive;
+    cursor: pointer;
+}
+
+button:focus {
+    outline: none !important;
+    background-color: #e00029;
+}
+
+.icons {
+    display: block;
+    margin: 0 auto;
+    margin-top: 20px;
+    width: 300px
+}
+
+.icons img {
+    width: 35px;
+    height: 35px;
+    margin-left: 30px;
+}
+
+nav {
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.button-wrapper {
+    display: flex;
+    flex-direction: row;
+    float: right;
+}
+
+.button-wrapper button {
+    margin-right: 20px;
+    background-color: #e00029;
+    cursor: pointer;
+
+}
+
+.button-wrapper button:focus {
+    color: black;
+}
+
+hr {
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
